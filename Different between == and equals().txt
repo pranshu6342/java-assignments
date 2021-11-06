@@ -1,0 +1,10 @@
+Difference between == and equals method in java
+
+1. == is an operator where as equals() is a method of Object class.
+
+2. == operator compares reference or memory location of objects in the heap, whether they point to the same location or not. 
+Whenever we create an object using the operator new it will create a new memory location for that object. 
+So we use the == operator to check memory location or address of two objects are the same or not.
+equals() method  is used to compare the state of two objects or the contents of the objects.
+
+3. Equals method can be overridden but you can’t override behavior of “==” operator

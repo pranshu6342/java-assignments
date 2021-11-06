@@ -1,0 +1,29 @@
+Different between length and length()
+
+length-->
+1) it is final variable in java.
+2) it is used to check the length of array.
+3)  class CheckLength{
+    public static void main(String arg[]){
+        int []arr={2,5,7,9,12};
+        System.out.println(arr.length);
+               }
+            }
+
+output-->
+5
+
+
+
+length()-->
+1) it is final method in java.
+2) it is used to check the length of character's present in String.
+3)  class CheckLength{
+    public static void main(String arg[]){
+        int []arr={"aman","techno"};
+        System.out.println(arr[1].length());
+               }
+            }
+
+output-->
+6
